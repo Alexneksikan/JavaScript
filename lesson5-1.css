@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#board{
+	display: inline-flex;
+	border: 3px solid black;
+	justify-content: center;
+	align-items: center;
+}
+
+.outer > div{
+	width: 60px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.black{
+	background: black;
+	border: 1px solid black;
+}
+
+.white{
+	border: 1px solid black;
+}
